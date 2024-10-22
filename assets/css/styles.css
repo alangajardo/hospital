@@ -54,7 +54,7 @@ modificar algún tipo de letra más moderna!
     border-radius: 5px;
     text-align: center;
     img{
-       border-radius: 5px 5px; 
+       border-radius: 5px 5px 0px 0px;
        height: 20vh;
     }
 }
@@ -83,9 +83,7 @@ modificar algún tipo de letra más moderna!
 @media all and (max-width: 815px){
     .servicios{
         flex-direction: column;
-        width: 90%;
-        padding-left: 5%; /*preguntar?*/
-        /*align-items: center;*/
+        margin: 0px 20px 0px 20px;
     }
 
     /*Menú hamburguesa??*/
