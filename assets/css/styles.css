@@ -1,8 +1,17 @@
+/*
+Preguntear si es buena práctica:
+Agregar el logo al css -> clase con background
+
+siempre agregar algunos margenes para que sea más legible!
+*/
+
 .menu{
     display: flex;
     justify-content: space-around;
     background-color: beige;
     list-style: none;
+    /*font-weight: 
+    text-transform: -> mayúscula*/
     font: large bold;
 }
 
@@ -61,3 +70,14 @@
     text-align: center;
 }
 .testimonios p:last-child{margin-bottom: 0;}
+
+@media all and (max-width: 815px){
+    .servicios{
+        flex-direction: column;
+        width: 90%;
+        padding-left: 5%; /*preguntar?*/
+        /*align-items: center;*/
+    }
+
+    /*Menú hamburguesa??*/
+}
