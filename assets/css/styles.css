@@ -3,7 +3,14 @@ Preguntear si es buena práctica:
 Agregar el logo al css -> clase con background
 
 siempre agregar algunos margenes para que sea más legible!
+
+modificar algún tipo de letra más moderna!
 */
+
+/*Debido al link agregado en html*/
+*{
+    font-family: "Roboto";
+}
 
 .menu{
     display: flex;
@@ -26,6 +33,8 @@ siempre agregar algunos margenes para que sea más legible!
     width: 100%;
     height: 50px;
     font-size: 100%;
+    /*peso de la letra*/
+    font-weight: 600;
     border-radius: 10px;
 }
 
