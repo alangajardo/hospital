@@ -79,8 +79,15 @@ header{
     text-align: center;
     img{
         width: 100%;
-       border-radius: 5px 5px 0px 0px;
-       height: 20vh;
+        border-radius: 5px 5px 0px 0px;
+        height: 20vh;
+    }
+    .doctor{
+        border-radius: 550px;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        
     }
 }
 .card:hover{
@@ -108,6 +115,7 @@ header{
 footer{
     display: flex;
     height: 100px;
+    background-color: beige;
     .links{
         align-items: center;
         width: 30%;
@@ -127,8 +135,12 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-
     }
+}
+
+.mensaje-compromiso{
+    color: #555;
+    text-align: justify;
 }
 
 .formulario{
@@ -176,5 +188,23 @@ footer{
         margin: 0px 20px 0px 20px;
     }
 
-    /*Menú hamburguesa??*/
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        .links{
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .contacto{
+            display: flex;
+            width: 100%;
+        }
+        .redes{
+            margin-top: 20px;
+            display: flex;
+            width: 100%;
+        }
+    }
 }
