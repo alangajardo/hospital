@@ -5,69 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <!--aquí va el link de google font se saca de la página de google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!--tooltip ver?-->
     <header>
-        <!--sacar style-->
-        <img style="height: 100px;" src="assets/img/hospital_logo.jpg" alt="logo hospital">
+        <img class="logo" src="assets/img/hospital_logo.jpg" alt="logo hospital">
     </header>
     <nav>
         <ul class="menu">
+            <li class="menu-item"><a href="index.html">Inicio</a></li>
             <li class="menu-item"><a href="equipo.html">Equipo médico</a></li>
             <li class="menu-item"><a href="contacto.html">Contacto</a></li>
         </ul>
         <input class="reservar" type="button" value="Reservar Cita">
     </nav>
     <main>
-        <p>Mensaje de bienvenida</p>
-        <p><b>Misión:</b> sanar personas.</p>
-        <p><b>Visión:</b> ser el mejor hospital de Chile.</p>
+        <p class="bienvenida">¡Bienvenido al Hospital Care!</p>
+        <p class="subtitulo">Estamos aquí para cuidar de ti y tus seres queridos con compromiso, profesionalismo y calidez. Nuestro equipo de especialistas está preparado para brindarte la mejor atención, ya sea en situaciones de emergencia, consultas médicas o servicios especializados. Nos enorgullece ofrecer un entorno seguro y humano, centrado en tu bienestar y recuperación. ¡Gracias por confiar en nosotros!</p>
+        <hr>
+        <p class="mision"><b>Misión:</b> brindar atención médica integral, oportuna y de calidad, comprometidos con la salud y el bienestar de nuestros pacientes. A través de un equipo humano altamente capacitado, tecnología avanzada y un enfoque centrado en la persona, buscamos mejorar la calidad de vida de la comunidad, promoviendo la prevención, el diagnóstico temprano y el tratamiento efectivo de enfermedades en un entorno de respeto, empatía y profesionalismo.</p>
+        <hr>
+        <p class="vision"><b>Visión:</b> ser un hospital de referencia en atención médica a nivel regional y nacional, reconocido por su excelencia, innovación y calidad humana. Aspiramos a liderar en el desarrollo de servicios de salud, combinando tecnología de vanguardia con un enfoque centrado en el paciente, promoviendo la investigación, la docencia y la mejora continua para contribuir al bienestar sostenible de la comunidad.</p>
         
-        <!--**cambiar div por section?-->
-        <div class="servicios">
+        <section class="servicios">
             <article class="card">
-                <!--cambiar el style de la img al archivo css-->
-                <img src="assets/img/servicio_1.jpeg" alt="urgencia" style="width: 100%;">
+                <img src="assets/img/servicio_1.jpeg" alt="urgencia">
                 <div class="container">
                     <h4><b>Urgencia</b></h4>
                     <p>El servicio de urgencia de un hospital está destinado a brindar atención médica inmediata a pacientes con condiciones críticas o emergencias que requieren intervención rápida, como accidentes, traumatismos, problemas cardíacos, dificultades respiratorias, entre otros. Funciona las 24 horas del día y cuenta con personal especializado y equipamiento necesario para estabilizar al paciente, realizar diagnósticos preliminares y, de ser necesario, derivarlo a una unidad de cuidados intensivos o a otras especialidades para un tratamiento más detallado.</p>
                 </div>
             </article>
             <article class="card">
-                <img src="assets/img/servicio_2.jpeg" alt="telemedicina" style="width: 100%;">
+                <img src="assets/img/servicio_2.jpeg" alt="telemedicina">
                 <div class="container">
                     <h4><b>Telemedicina</b></h4>
                     <p>El servicio de telemedicina permite brindar atención médica a distancia mediante el uso de tecnologías de comunicación, como videollamadas, chats o plataformas especializadas. Facilita la consulta, diagnóstico, seguimiento y orientación sin que el paciente tenga que desplazarse al centro de salud, lo que es especialmente útil en zonas rurales o para personas con movilidad limitada. Además, contribuye a optimizar los recursos sanitarios y ofrecer atención más ágil, manteniendo la confidencialidad y calidad del cuidado médico.</p>
                 </div>
             </article>
             <article class="card">
-                <img src="assets/img/servicio_3.jpeg" alt="paliativo" style="width: 100%;">
+                <img src="assets/img/servicio_3.jpeg" alt="paliativo">
                 <div class="container">
                     <h4><b>Paliativos</b></h4>
                     <p>El servicio de cuidados paliativos se enfoca en mejorar la calidad de vida de pacientes con enfermedades crónicas o avanzadas que no tienen una cura definitiva, como el cáncer en etapas terminales. Su objetivo principal es aliviar el dolor y manejar síntomas físicos, emocionales y psicológicos, brindando también apoyo a las familias durante este proceso. Este enfoque integral busca proporcionar bienestar, respetando la dignidad del paciente y sus deseos, priorizando el confort sobre tratamientos agresivos.</p>
                 </div>
             </article>
-        </div>
+        </section>
 
         <section class="testimonios">
-            <p><b>"Desde que llegué a urgencias, me sorprendió la rapidez y amabilidad del personal. A pesar de la situación difícil, los médicos y enfermeras hicieron todo lo posible por explicarme cada procedimiento y brindarme seguridad en cada momento."</b></p>
-            <p><b>"El trato que recibí durante mi hospitalización fue excelente. No solo atendieron mis necesidades médicas, sino que también se preocuparon por mi bienestar emocional. Se nota el compromiso del personal con sus pacientes."</b></p>
-            <p><b>"Tuve una experiencia muy positiva, especialmente por la paciencia y empatía del equipo médico. Me mantuvieron informado en todo momento, y eso me dio mucha tranquilidad tanto a mí como a mi familia."</b></p>
-            <p><b>"La atención en este hospital fue impecable. Desde el personal de recepción hasta los médicos especialistas, todos mostraron gran profesionalismo y calidez humana, lo que hizo mi proceso de recuperación más llevadero."</b></p>
+            <p><b>"Desde que llegué a urgencias, me sorprendió la rapidez y amabilidad del personal. A pesar de la situación difícil, los médicos y enfermeras hicieron todo lo posible por explicarme cada procedimiento y brindarme seguridad en cada momento."</b><br>10-10-2024</p>
+            <p><b>"El trato que recibí durante mi hospitalización fue excelente. No solo atendieron mis necesidades médicas, sino que también se preocuparon por mi bienestar emocional. Se nota el compromiso del personal con sus pacientes."</b><br>15-09-2024</p>
+            <p><b>"Tuve una experiencia muy positiva, especialmente por la paciencia y empatía del equipo médico. Me mantuvieron informado en todo momento, y eso me dio mucha tranquilidad tanto a mí como a mi familia."</b><br>22-08-2024</p>
+            <p><b>"La atención en este hospital fue impecable. Desde el personal de recepción hasta los médicos especialistas, todos mostraron gran profesionalismo y calidez humana, lo que hizo mi proceso de recuperación más llevadero."</b><br>04-08-2024</p>
         </section>
     </main>
     <footer>
-        <a href="#">LALA</a>
-        <a href="#">LELE</a>
-        <p>Información de contacto, telefono, correo</p>
-        <a href="#">Instagram</a>
-        <a href="#">Tik tok</a>
+        <div class="links">
+            <a href="#">Quienes Somos</a>
+            <a href="https://www.gob.cl/ministerios/ministerio-de-salud/">Ministerio de Salud</a>
+        </div>
+        <div class="contacto">
+            <span>Teléfono contacto: <a href="">+569 9999 9999</a></span>
+        </div>
+        <div class="redes">
+            <a href="#"><img src="assets/img/instagram.png" alt="instagram"> Instagram</a>
+            <a href="#"><img src="assets/img/tik-tok.png" alt="tik-tok"> Tik tok</a>
+        </div>
     </footer>
 </body>
 </html>

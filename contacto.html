@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--el mapa es foto? address? mapa?-->
-    <h1>aqui está el mapa</h1>
-    <map name="mapita"></map>
-
+    <header>
+        <img class="logo" src="assets/img/hospital_logo.jpg" alt="logo hospital">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a href="index.html">Inicio</a></li>
+            <li class="menu-item"><a href="equipo.html">Equipo médico</a></li>
+            <li class="menu-item"><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <input class="reservar" type="button" value="Reservar Cita">
+    </nav>
+    <main>
+        <hr>
+        <section>
+            <form class="formulario">
+                <h1>Formulario contacto</h1>
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre">
+            
+                <label>Correo electrónico</label>
+                <input type="email" placeholder="Ingrese su correo">
+            
+                <label>Asunto</label>
+                <input type="text" placeholder="Ingrese asunto del mensaje">
+            
+                <label>Mensaje</label>
+                <textarea type="text" placeholder="Ingrese mensaje de su consulta"></textarea>
+                <input class="boton-enviar" type="submit" value="Enviar">
+            </form>
+        </section>
+        <hr>
+        <div class="mapswrapper">
+            <h2>Donde nos encontramos</h2>
+            <iframe width="100%" height="450" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Sotero%20del%20rio&zoom=15&maptype=roadmap"></iframe>
+            <a href="https://www.taxuni.com/minnesota-income-tax-calculator/">Minnesota Income Tax Calculator</a><style>.mapswrapper{background:#fff;position:relative}.mapswrapper iframe{border:0;position:relative;z-index:2}.mapswrapper a{color:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:0}</style>
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="#">Quienes Somos</a>
+            <a href="https://www.gob.cl/ministerios/ministerio-de-salud/">Ministerio de Salud</a>
+        </div>
+        <div class="contacto">
+            <span>Teléfono contacto: <a href="">+569 9999 9999</a></span>
+        </div>
+        <div class="redes">
+            <a href="#"><img src="assets/img/instagram.png" alt="instagram"> Instagram</a>
+            <a href="#"><img src="assets/img/tik-tok.png" alt="tik-tok"> Tik tok</a>
+        </div>
+    </footer>
 </body>
 </html>
