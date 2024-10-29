@@ -1,4 +1,4 @@
-![Logo](./assets/img/hospital_logo.jpg)
+<img src="./assets/img/hospital_logo.jpg" width="250">
 
 # **Hospital Care**
 
