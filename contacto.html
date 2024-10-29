@@ -10,34 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img class="logo" src="assets/img/hospital_logo.jpg" alt="logo hospital">
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/img/hospital_logo.jpg" alt="logo hospital">
     </header>
-    <nav>
-        <ul class="menu">
-            <li class="menu-item"><a href="index.html">Inicio</a></li>
-            <li class="menu-item"><a href="equipo.html">Equipo médico</a></li>
-            <li class="menu-item"><a href="contacto.html">Contacto</a></li>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
+            <li class="menu__item"><a class="menu__link" href="equipo.html">Equipo médico</a></li>
+            <li class="menu__item"><a class="menu__link" href="contacto.html">Contacto</a></li>
         </ul>
-        <input class="reservar" type="button" value="Reservar Cita">
+        <input class="menu__reservar" type="button" value="Reservar Cita">
     </nav>
     <main>
         <hr>
         <section>
             <form class="formulario">
                 <h1>Formulario contacto</h1>
-                <label>Nombre</label>
-                <input type="text" placeholder="Ingrese su nombre">
+                <label class="formulario__etiqueta">Nombre</label>
+                <input class="formulario__input" type="text" placeholder="Ingrese su nombre">
             
-                <label>Correo electrónico</label>
-                <input type="email" placeholder="Ingrese su correo">
+                <label class="formulario__etiqueta">Correo electrónico</label>
+                <input class="formulario__input" type="email" placeholder="Ingrese su correo">
             
-                <label>Asunto</label>
-                <input type="text" placeholder="Ingrese asunto del mensaje">
+                <label class="formulario__etiqueta">Asunto</label>
+                <input class="formulario__input" type="text" placeholder="Ingrese asunto del mensaje">
             
-                <label>Mensaje</label>
-                <textarea type="text" placeholder="Ingrese mensaje de su consulta"></textarea>
-                <input class="boton-enviar" type="submit" value="Enviar">
+                <label class="formulario__etiqueta">Mensaje</label>
+                <textarea class="formulario__area" type="text" placeholder="Ingrese mensaje de su consulta"></textarea>
+                <input class="formulario__input formulario__input--boton" type="submit" value="Enviar">
             </form>
         </section>
         <hr>
