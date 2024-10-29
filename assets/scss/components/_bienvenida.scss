@@ -1,0 +1,19 @@
+@use '../modules/variables' as *;
+
+//main
+//main->mensajes
+.mensajes{
+    
+    &__titulo{
+        color: $color-texto;
+        margin-bottom: 0;
+    }
+    &__subtitulo{
+        color: $color-texto;
+        text-align: justify;
+    }
+    &__mision, &__vision{
+        text-align: justify;
+    }
+    
+}

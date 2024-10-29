@@ -41,114 +41,6 @@
   background-color: #ccc;
 }
 
-.mensajes__titulo {
-  color: gray;
-  margin-bottom: 0;
-}
-.mensajes__subtitulo {
-  color: gray;
-  text-align: justify;
-}
-.mensajes__mision, .mensajes__vision {
-  text-align: justify;
-}
-
-.mensaje-compromiso {
-  color: #555;
-  text-align: justify;
-}
-
-.servicios {
-  display: flex;
-  gap: 30px;
-}
-.servicios__card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transform: 0.3s;
-  border-radius: 5px;
-  text-align: center;
-}
-.servicios__card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.servicios__imagen {
-  width: 100%;
-  border-radius: 5px 5px 0px 0px;
-  height: 20vh;
-}
-.servicios__imagen-doctor {
-  border-radius: 550px;
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-}
-.servicios__container {
-  padding: 2px 16px;
-  text-align: justify;
-}
-@media all and (max-width: 815px) {
-  .servicios {
-    flex-direction: column;
-    margin: 0px 20px 0px 20px;
-  }
-}
-
-.testimonios {
-  background-color: beige;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-}
-.testimonios__parrafo {
-  font-style: italic;
-  color: #555;
-  margin-bottom: 30px;
-  text-align: center;
-}
-.testimonios__parrafo:last-child {
-  margin-bottom: 0;
-}
-
-.formulario {
-  background-color: beige;
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transform: 0.3s;
-  text-align: center;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-.formulario__etiqueta {
-  display: block;
-  margin-top: 10px;
-}
-.formulario__input {
-  display: block;
-  margin-left: 5%;
-  width: 90%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 40px;
-  font-size: larger;
-}
-.formulario__input--boton {
-  margin-top: 20px;
-}
-.formulario__area {
-  display: block;
-  margin-left: 5%;
-  width: 90%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 150px;
-  font-size: larger;
-  resize: none;
-}
-
 footer {
   display: flex;
   height: 100px;
@@ -194,6 +86,114 @@ footer .redes {
     display: flex;
     width: 100%;
   }
+}
+
+.formulario {
+  background-color: beige;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: 0.3s;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.formulario__etiqueta {
+  display: block;
+  margin-top: 10px;
+}
+.formulario__input {
+  display: block;
+  margin-left: 5%;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+  font-size: larger;
+}
+.formulario__input--boton {
+  margin-top: 20px;
+}
+.formulario__area {
+  display: block;
+  margin-left: 5%;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 150px;
+  font-size: larger;
+  resize: none;
+}
+
+.testimonios {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+.testimonios__parrafo {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.testimonios__parrafo:last-child {
+  margin-bottom: 0;
+}
+
+.mensaje-compromiso {
+  color: #555;
+  text-align: justify;
+}
+
+.servicios {
+  display: flex;
+  gap: 30px;
+}
+.servicios__card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+}
+.servicios__card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.servicios__imagen {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  height: 20vh;
+}
+.servicios__imagen-doctor {
+  border-radius: 550px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.servicios__container {
+  padding: 2px 16px;
+  text-align: justify;
+}
+@media all and (max-width: 1024px) {
+  .servicios {
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+  }
+}
+
+.mensajes__titulo {
+  color: gray;
+  margin-bottom: 0;
+}
+.mensajes__subtitulo {
+  color: gray;
+  text-align: justify;
+}
+.mensajes__mision, .mensajes__vision {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=styles.css.map */
