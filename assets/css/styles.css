@@ -24,6 +24,13 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+@media all and (max-width: 768px) {
+  .menu__list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
 .menu__item {
   color: royalblue;
 }
@@ -66,7 +73,7 @@ footer .redes {
   align-items: center;
   justify-content: space-around;
 }
-@media all and (max-width: 815px) {
+@media all and (max-width: 768px) {
   footer {
     flex-direction: column;
     justify-content: center;

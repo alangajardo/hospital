@@ -24,6 +24,14 @@
         list-style: none;
         font-weight: 500;
         text-transform: uppercase;
+
+        &{
+            @media all and (max-width: 768px){
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+            }
+        }
     }
 
     &__item{
@@ -45,4 +53,5 @@
             background-color: #ccc;
         }
     }
+
 }
