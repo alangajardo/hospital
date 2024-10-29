@@ -49,3 +49,7 @@ cd hospital
 ```
 code .
 ```
+
+## Autor
+| [<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=4hlnzdtF3RMQ7kNvgHL6Zi3&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=A5I3Brykzh8PH4luat7pArB&oh=00_AYBoTuxohtWs2HIX50EWGIAD5xpiHq1dsW-smD1v60vTsw&oe=6726F586" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo) |
+| :---: |
