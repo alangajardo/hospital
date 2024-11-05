@@ -25,14 +25,17 @@ El proyecto se compone de una estructura simple:
 1. Carpeta assets que contiene las imágenes, css y sass del proyecto.
 2. Archivo .gitignore para controlar los elementos que suben a GitHub.
 3. Página principal, contacto y equipo del proyecto web.
+4. Archivo .gitignore para omitir la carga de archivo no necesarios al repositorio.
+5. Archivo package.json que se encarga de controlar la versión de bootstrap utilizada en el proyecto.
 
-En cuanto a la forma de trabajar los estilos se utilizó la metodología BEM (Block, Element, Modifier). EN el cual para mantener el proyecto se utilización modularización de los elementos a través de SASS, lo cual permite una mejor mantenibilidad, orden y escalabilidad a futuro para modificaciones de la interfaz gráfica.
+En cuanto a la forma de trabajar los estilos se utilizó la metodología BEM (Block, Element, Modifier). En el cual para mantener el proyecto se utilización modularización de los elementos a través de SASS, lo cual permite una mejor mantenibilidad, orden y escalabilidad a futuro para modificaciones de la interfaz gráfica.
 
 Ademas que se permite la utilización de variables e importación entre archivos, lo cual genera un ambiente de desarrollo ás intuitivo.
 
 Se trabajo con una página responsiva a través de la utilización de media queries, para controlar los distintos puntos de ruptura de los dispositivos. Particularmente en el proyecto se utilizaron 1024px como primer punto de modificación para las tarjeta de la sección principal y luego 768px para la adpatación de los elementos del footer.
 
-Sobre ls distribución que se utilizó de los elementos SASS, se partió creando una carpeta dentro de los ASSETS, la cual se dividió en componentes como header, footer, bienvenida, formulario de contacto, principal y testimonios, todos cumpliendo con el formato de escritura para modularizar en SASS. A parte se creó una carpeta con modulos generales como la base del proyecto y las variables. Finalmente un archivo general styles donde se importante los archivos modulares.
+Sobre la distribución que se utilizó de los elementos SASS, se partió creando una carpeta dentro de los ASSETS, en la cual se creó una carpeta SCSS que se dividio utilizando la metodología 7-1. De esta manera se modularizó el desarrollo de variable y aspectos del proyecto.
+Se instalo bootstrap al proyecto, de tal manera que a través de SASS se tomo la librería de bootstrap y compilo. Se sobrescribieron algunas de las variables nativas de bootstrap para utilizar los colores del hospital.
 
 
 # Levantar el proyecto
@@ -45,6 +48,9 @@ git clone https://github.com/alangajardo/hospital.git
 ```
 ```
 cd hospital
+```
+```
+npm install
 ```
 ```
 code .
