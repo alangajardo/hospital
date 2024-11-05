@@ -48,7 +48,7 @@
   background-color: #ccc;
 }
 
-footer {
+/*footer {
   display: flex;
   height: 100px;
   background-color: beige;
@@ -93,7 +93,7 @@ footer .redes {
     display: flex;
     width: 100%;
   }
-}
+}*/
 
 .formulario {
   background-color: beige;
