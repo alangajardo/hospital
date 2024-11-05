@@ -1,0 +1,10 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap";
+
+@import "./abstracts/mixins";
+//@import "./abstracts/variables";
+@import "./base/base";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./pages/home";
+@import "./pages/equipo";
+@import "./pages/contacto";

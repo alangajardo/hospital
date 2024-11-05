@@ -1,0 +1,25 @@
+@import "../abstracts/variables";
+
+.footer{
+    background-color: darken($color-secundario,15%) !important;
+  
+    &__img{
+      max-width: 300px;
+    }
+  
+    &__link{
+      color: $color-links;
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      transition: color 0.3s, transform 0.3s;
+  
+      &:hover{
+        color: $color-link-hover;
+        transform: scale(1.05);
+        text-decoration: underline;
+      }
+    }
+}
+  

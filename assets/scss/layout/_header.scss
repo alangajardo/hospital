@@ -1,0 +1,13 @@
+@import "../abstracts/variables";
+
+.menu{
+    background-color: $color-secundario !important;
+  
+    &__img{
+      height: 50px;
+    }
+  
+    &__boton{
+      background-color: $color-terciario !important;
+    }
+}

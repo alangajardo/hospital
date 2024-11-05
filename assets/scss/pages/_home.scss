@@ -1,0 +1,36 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+.servicio{
+
+    &__parrafo{
+      border-radius: 15px;
+      @include aclarar-color($color-terciario, 0.4);
+      padding: 15px;
+    }
+  
+    &__img{
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+    }
+  }
+  
+  .comentario{
+  
+    &__header{
+      background-color: $color-terciario;
+    }
+  
+    &__nombre{
+      color: #555;
+      font-size: 0.9rem;
+      font-weight: bold;
+  
+    }
+  
+    &__star-rating{
+      color: $color-estrellas;
+      margin-left: 2px;
+    }
+}
