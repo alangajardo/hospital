@@ -1,17 +1,26 @@
-<img src="./assets/img/hospital_logo.jpg" width="250">
+<img src="./assets/img/logo.png" width="250">
 
 # **Hospital Care**
 
-El proposito del proyecto es generar una página web responsiva para el Hospital Care, ya que actualmente no cuentan con una página web que les permita presentar a sus pacientes los servicios que ofrece y obtener información de ellos en base a testimonios de los mismos paciente que se atienden en el hospital.
+El  proyecto web desarrollado abarca una página web responsiva creada para dar a conocer al Hospital Care.
+El sitio web cuenta con información relevantes sobre los servicios que ofrece a sus pacientes como el servicio de urgencias, telemedicina y cuidados paliativos, todos demostrados a través de imágenes y explicando el servicio que se ofrece.
+Además cuanta con una sección de comentarios de los pacientes que se han atendido en el hospital en sus distintas especialidades.
+En otra de las páginas del sitio web se puede ver a los profesionales que trabajan en el hospital y las áreas de especialización que cubren como traumatología, ginecología, pediatría y neurología, destacando la gran carrera de los médicos presenten para la atención.
+Como toda página web, cuenta con un formulario de contacto que le permite a un futuro paciente realizar preguntas al hospital y aclarar cualquier duda que pueda presentar, entregando información como nombre y correo para un posterior contacto.
+Cada página cuenta con un pie de página que entrega información sobre el hospital, un teléfono de contacto y las redes sociales del mismo junto con su ubicación.
+
+Para lograr lo anterior se eligió trabajar el proyecto de un stack web que utiliza Bootstrap Y SASS para manejar el aspecto visual del sitio web. Se utilizaron los patrones de 7-1 y BEM para organizar el código. Se aplicaron funcionalidades para que el contenido de las páginas se vea correctamente en todos los tamaños comunes de pantalla, por lo que es un diseño responsivo.
 
 Dentro de sus principales características se encuentra:
 
 1. La presentación del logo del hospital que lo identifica.
 2. Un menu de navegación para moverse a través de la página web y su contenido.
-3. Un Botón para reservar citas médicas con los doctores disponibles.
+3. Un botón para reservar citas médicas con los doctores disponibles.
 4. Presentar nuestra misión, visión servicios y testimonios claves de los pacientes que se han atendido en Hospital Care.
 5. Presentar al equipo de médicos que atienden en el hospital.
 6. Un formulario de contacto, donde los paciente podrán realizar todas las preguntas que tengan.
+7. Ubicación del hospital.
+8. Pie de página con información complementaria del hospital.
 
 # Algunas de las tecnologías que utilicé:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -19,23 +28,22 @@ Dentro de sus principales características se encuentra:
 ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 El proyecto se compone de una estructura simple:
 
 1. Carpeta assets que contiene las imágenes, css y sass del proyecto.
 2. Archivo .gitignore para controlar los elementos que suben a GitHub.
 3. Página principal, contacto y equipo del proyecto web.
-4. Archivo .gitignore para omitir la carga de archivo no necesarios al repositorio.
-5. Archivo package.json que se encarga de controlar la versión de bootstrap utilizada en el proyecto.
+4. Archivo package.json que se encarga de controlar la versión de bootstrap utilizada en el proyecto.
 
-En cuanto a la forma de trabajar los estilos se utilizó la metodología BEM (Block, Element, Modifier). En el cual para mantener el proyecto se utilización modularización de los elementos a través de SASS, lo cual permite una mejor mantenibilidad, orden y escalabilidad a futuro para modificaciones de la interfaz gráfica.
+En cuanto a la forma de trabajar los estilos se utilizó la metodología BEM (Block, Element, Modifier). En el cual para mantener el proyecto se utilización modularización de los elementos a través de SASS y 7-1, lo cual permite una mejor mantenibilidad, orden y escalabilidad a futuro para modificaciones de la interfaz gráfica.
 
 Ademas que se permite la utilización de variables e importación entre archivos, lo cual genera un ambiente de desarrollo ás intuitivo.
 
-Se trabajo con una página responsiva a través de la utilización de media queries, para controlar los distintos puntos de ruptura de los dispositivos. Particularmente en el proyecto se utilizaron 1024px como primer punto de modificación para las tarjeta de la sección principal y luego 768px para la adpatación de los elementos del footer.
+Se trabajó con una página responsiva a través de la utilización de bootstrap, para controlar los distintos puntos de ruptura de los dispositivos. Particularmente se utilizaron mas medidas sm, md, lg y xl de las clases de bootstrap para controlar los puntos de ruptura.
 
-Sobre la distribución que se utilizó de los elementos SASS, se partió creando una carpeta dentro de los ASSETS, en la cual se creó una carpeta SCSS que se dividio utilizando la metodología 7-1. De esta manera se modularizó el desarrollo de variable y aspectos del proyecto.
-Se instalo bootstrap al proyecto, de tal manera que a través de SASS se tomo la librería de bootstrap y compilo. Se sobrescribieron algunas de las variables nativas de bootstrap para utilizar los colores del hospital.
+Se instalo bootstrap al proyecto, de tal manera que a través de SASS se tomó la librería de bootstrap y compiló. Se sobrescribieron algunas de las variables nativas de bootstrap para utilizar los colores del hospital.
 
 
 # Levantar el proyecto
@@ -56,6 +64,7 @@ npm install
 code .
 ```
 
-## Autor
-| [<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=4hlnzdtF3RMQ7kNvgHL6Zi3&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=A5I3Brykzh8PH4luat7pArB&oh=00_AYBoTuxohtWs2HIX50EWGIAD5xpiHq1dsW-smD1v60vTsw&oe=6726F586" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo) |
-| :---: |
+## Autores
+[<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=4hlnzdtF3RMQ7kNvgHL6Zi3&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=A5I3Brykzh8PH4luat7pArB&oh=00_AYBoTuxohtWs2HIX50EWGIAD5xpiHq1dsW-smD1v60vTsw&oe=6726F586" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo)
+
+[<img src="https://cdn.discordapp.com/attachments/1303511012363993169/1303522007685791815/WIN_20241105_21_50_23_Pro.jpg?ex=672c0ef8&is=672abd78&hm=be4825fcbb2b0e9678aa0304f1402bab6730fa76ae38a8b73590ee84a967a939&" width=115><br><sub>Carlos Meneses Rodríguez</sub>](https://github.com/cpmeneses)
