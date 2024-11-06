@@ -65,6 +65,6 @@ code .
 ```
 
 ## Autores
-[<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=4hlnzdtF3RMQ7kNvgHL6Zi3&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=A5I3Brykzh8PH4luat7pArB&oh=00_AYBoTuxohtWs2HIX50EWGIAD5xpiHq1dsW-smD1v60vTsw&oe=6726F586" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo)
+[<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE0FAwgoYNy1qe2BsmB8IktNxci0VAU0tY3FyLRUBTS1oTqXOpZpNGmTfqGgZULfuw&_nc_ohc=3kM2qqydNuoQ7kNvgE-YvBP&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=AaTe7_f2gQf0AeasOOcquH0&oh=00_AYC6-AQ2eXCOEO4gy-6BGMF2Eu7KLiMd-4m-Vwbg7_N3VQ&oe=6730A086" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo)
 
 [<img src="https://cdn.discordapp.com/attachments/1303511012363993169/1303522007685791815/WIN_20241105_21_50_23_Pro.jpg?ex=672c0ef8&is=672abd78&hm=be4825fcbb2b0e9678aa0304f1402bab6730fa76ae38a8b73590ee84a967a939&" width=115><br><sub>Carlos Meneses Rodríguez</sub>](https://github.com/cpmeneses)
