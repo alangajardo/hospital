@@ -45,6 +45,15 @@ Se trabajó con una página responsiva a través de la utilización de bootstrap
 
 Se instalo bootstrap al proyecto, de tal manera que a través de SASS se tomó la librería de bootstrap y compiló. Se sobrescribieron algunas de las variables nativas de bootstrap para utilizar los colores del hospital.
 
+# Inclusión de JavaScript o TypeScript al proyecto
+
+Como conclusión, tiene muchas más ventajas que desventajas la implementación de JavaScript o TypeScript en nuestro proyecto, ya que nos entregará herramientas más avanzadas para mejorar ya se la interfaz visual a través del manejo del DOM, la interacción con el usuario final a través de su integración con botones y/o formularios, e incluso ayudará a manejar de mejor manera la información que muestra el sitio web, puesto que todo es estático y de difícil modificación o actualización, y a través por ejemplo de objetos, listas o archivos JSON, se podría manejar la información de las especialidades y/o doctores de una manera más simple.
+
+1)	Inicialmente, ya sea utilizando JavaScript o TypeScript, esto permitirá que nuestra página web pueda alcanzar nuevos horizontes, ya que podríamos utilizar nuevos recursos interactivos y aplicarlos al sitio web, de tal manera que mejoraría la experiencia del usuario.
+2)	La implementación del botón para generar una reserva no sería funcional sin la programación que aporta JavaScript y/o TypeScript, así también la funcionalidad del formulario de contacto, puesto que de esta manera podemos validar la información ingresada, enviarla a una base de datos por ejemplo e incluso enviar un correo de verificación con la consulta.
+3)	Se han mencionado ventajas, como desventaja podría verse el tiempo que se deberá invertir en la aplicación de ellos al sitio web y la curva de aprendizaje necesario si se elige la opción de TypeScript.
+
+
 
 # Levantar el proyecto
 Para poder trabajar en el proyecto debe abrir una linea de comando y seguir los siguientes pasos (la versión 1.1 de la página trabaja con html y css a través de SASS, por lo cual se recomienda instalar alguna extensión como live server):
