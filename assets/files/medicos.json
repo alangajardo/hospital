@@ -1,0 +1,34 @@
+[
+    {
+        "img": "assets/img/dr_stephen_strange.jpeg",
+        "alt": "dr. Stephen Strange",
+        "nombre": "Dr. Stephen Strange",
+        "especialidad": "Traumatología",
+        "descripcion": "El Dr. Stephen Strange es un especialista en traumatología con experiencia en el diagnóstico y tratamiento de lesiones musculoesqueléticas y fracturas. Se ha formado en instituciones de prestigio y participa en congresos médicos, priorizando la recuperación funcional y el bienestar de sus pacientes.",
+        "anios_exp": 3
+    },
+    {
+        "img": "assets/img/dr_christine_palmer.jpeg",
+        "alt": "dr. christine palmen",
+        "nombre": "Dr. Christine Palmer",
+        "especialidad": "Ginecología",
+        "descripcion": "La Dra. Christine Palmer es una ginecóloga con experiencia en el cuidado de la salud femenina, especializada en afecciones ginecológicas y control prenatal. Combina conocimiento científico con un enfoque empático y se compromete a brindar atención integral y personalizada para el bienestar de cada mujer.",
+        "anios_exp": 10
+    },
+    {
+        "img": "assets/img/dr_fate.webp",
+        "alt": "dr. fate",
+        "nombre": "Dr. Fate",
+        "especialidad": "Pediatría",
+        "descripcion": "El Dr. Fate es un pediatra comprometido con la salud infantil, desde recién nacidos hasta adolescentes. Su enfoque se centra en el diagnóstico y tratamiento de enfermedades, promoviendo el desarrollo saludable y ofreciendo atención personalizada para cada niño.",
+        "anios_exp": 15
+    },
+    {
+        "img": "assets/img/dr_derek_sheperd.jpeg",
+        "alt": "dr. derek sheperd",
+        "nombre": "Dr. Derek Sheperd",
+        "especialidad": "Neurología",
+        "descripcion": "El Dr. Derek Shepherd es un neurólogo especializado en el diagnóstico y tratamiento de trastornos del sistema nervioso, como epilepsia y accidentes cerebrovasculares. Se dedica a brindar tratamientos personalizados que mejoran la calidad de vida de sus pacientes.",
+        "anios_exp": 4
+    }
+]

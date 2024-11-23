@@ -53,7 +53,18 @@ Como conclusión, tiene muchas más ventajas que desventajas la implementación 
 2)	La implementación del botón para generar una reserva no sería funcional sin la programación que aporta JavaScript y/o TypeScript, así también la funcionalidad del formulario de contacto, puesto que de esta manera podemos validar la información ingresada, enviarla a una base de datos por ejemplo e incluso enviar un correo de verificación con la consulta.
 3)	Se han mencionado ventajas, como desventaja podría verse el tiempo que se deberá invertir en la aplicación de ellos al sitio web y la curva de aprendizaje necesario si se elige la opción de TypeScript.
 
+# **Implementación de JavaScript**
 
+Dentro del proyecto se comenzó aplicando el comando prompt para solicitar al usuario el ingreso de datos y comenzar a validar y analizar los datos que un usuario puede entregar. Se validaron los datos con ciclos y condicionales para restringir lo que el usuario pueda ingresar.
+
+Por otra parte tenemos los tipos de variables que se utilizaron, que en esta ocasión fueron let y const, la primera nos permite almacenar información, puede variar y tiene alcance de bloque, en cambio la segunda no pueda mutar su valor.
+
+Además tenemos el **debugger**, el cual nos permite detener la pausar la ejecución del código de javascript y analizar el paso a paso que ocurre a medida que avanzamos en la ejecución del código.
+
+Al momento de aplicar javascript al proyecto, se debe tener en consideración como funciona **event loop**:
+1. Stack: le da orden al llamado de las operaciones e indica el orden de ejecución al llamar a varias funciones.
+2. Heap: almacena en memoria los elementos que necesitan quedarse en el programa por mas tiempo.
+3. Queue: es donde las tareas quedan en espera para ejecutarse.
 
 # Levantar el proyecto
 Para poder trabajar en el proyecto debe abrir una linea de comando y seguir los siguientes pasos (la versión 1.1 de la página trabaja con html y css a través de SASS, por lo cual se recomienda instalar alguna extensión como live server):
@@ -75,5 +86,3 @@ code .
 
 ## Autores
 [<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE0FAwgoYNy1qe2BsmB8IktNxci0VAU0tY3FyLRUBTS1oTqXOpZpNGmTfqGgZULfuw&_nc_ohc=3kM2qqydNuoQ7kNvgE-YvBP&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=AaTe7_f2gQf0AeasOOcquH0&oh=00_AYC6-AQ2eXCOEO4gy-6BGMF2Eu7KLiMd-4m-Vwbg7_N3VQ&oe=6730A086" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo)
-
-[<img src="https://cdn.discordapp.com/attachments/1303511012363993169/1303522007685791815/WIN_20241105_21_50_23_Pro.jpg?ex=672c0ef8&is=672abd78&hm=be4825fcbb2b0e9678aa0304f1402bab6730fa76ae38a8b73590ee84a967a939&" width=115><br><sub>Carlos Meneses Rodríguez</sub>](https://github.com/cpmeneses)
