@@ -1,4 +1,4 @@
-[
+let medicos = [
     {
         "codigo_medico": 1,
         "img": "dr_stephen_strange.jpeg",
@@ -10,7 +10,7 @@
             "correo": "stephen.strange@hcare.cl",
             "telefono": 912312312
         },
-        "anios_exp": 8,
+        "anios_exp": 3,
         "horario": {
             "lunes": ["10:00", "11:00", "12:00"],
             "martes": ["10:00", "11:00", "12:00"],
@@ -84,3 +84,24 @@
         "disponibilidad": true
     }
 ]
+
+let servicios = [
+    {
+        "nombre": "Urgencia",
+        "descripcion": "El servicio de urgencia de un hospital ofrece atención médica inmediata a pacientes en condiciones críticas, funcionando las 24 horas con personal especializado y equipamiento para estabilizar y diagnosticar.",
+        "img": "servicio_1.jpg"
+    },
+    {
+        "nombre": "Telemedicina",
+        "descripcion": "El servicio de telemedicina proporciona atención médica a distancia mediante tecnologías como videollamadas y chats, permitiendo consultas sin desplazamientos y optimizando recursos sanitarios, manteniendo la confidencialidad y calidad del cuidado.",
+        "img": "servicio_2.jpg"
+    },
+    {
+        "nombre": "Paliativos",
+        "descripcion": "El servicio de cuidados paliativos mejora la calidad de vida de pacientes con enfermedades avanzadas sin cura, como el cáncer terminal, aliviando el dolor y síntomas, y brindando apoyo a las familias mientras prioriza el confort del paciente.",
+        "img": "servicio_3.jpg"
+    }
+]
+
+console.warn("MERGE DE LISTAS DE VALORES")
+console.log(medicos.concat(servicios))

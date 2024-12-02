@@ -66,6 +66,14 @@ Al momento de aplicar javascript al proyecto, se debe tener en consideración co
 2. Heap: almacena en memoria los elementos que necesitan quedarse en el programa por mas tiempo.
 3. Queue: es donde las tareas quedan en espera para ejecutarse.
 
+# Complejidad algoritmos
+Dentro de la complejidad de los algoritmos, se encuentran los conceptos de Big-O y ciclomática, lo cual se detalla a continuación:
+
+1. Dentro de los algotirmos mas relevantes de la complejidad Big-O o temporal, se encuentran los algoritmos de busqueda, ordenamiento e inserción. El primero nos permite buscar informaci´pon dentro de una lista, el segundo crear un orden de la información de acuerdo con algún parámetro y el de inseción administra los registros dentro de la lista.
+2. La complejidad ciclomática mida el número de ruta linealmente independientes a través del código fiente de un programa y tiene formas de calcularlo a través de aristas, nodos y número de componentes..
+
+Ambos aseguran que el proyecto sea escalable y mantenible en el tiempo, identificando y optimizando el rendimiento y desempeño general de la programación y tratando de reducir errores futuros.
+
 # Levantar el proyecto
 Para poder trabajar en el proyecto debe abrir una linea de comando y seguir los siguientes pasos (la versión 1.1 de la página trabaja con html y css a través de SASS, por lo cual se recomienda instalar alguna extensión como live server):
 ```
