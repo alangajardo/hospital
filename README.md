@@ -74,6 +74,35 @@ Dentro de la complejidad de los algoritmos, se encuentran los conceptos de Big-O
 
 Ambos aseguran que el proyecto sea escalable y mantenible en el tiempo, identificando y optimizando el rendimiento y desempeño general de la programación y tratando de reducir errores futuros.
 
+# Programación funcional en JS
+
+La programación funcional es un paradigma de programación que pone énfasis en el uso de funciones como bloques fundamentales. En lugar de centrarse en el cambio de estado y la mutabilidad de los datos, la programación funcional busca crear soluciones a través de funciones puras y la composición de estas funciones. A continuación, se explican algunos conceptos clave de la programación funcional:
+
+1. Currying: Esta técnica convierte una función que recibe múltiples argumentos en una secuencia de funciones, cada una de las cuales toma un solo argumento. Facilita la reutilización de funciones y la creación de funciones más específicas a partir de funciones generales.
+2. Funciones flecha: Son una forma más compacta de escribir funciones en lenguajes como JavaScript. Utilizan la sintaxis () => {} y no tienen su propio contexto this, lo que las hace más adecuadas para funciones dentro de otras funciones o como funciones de orden superior.
+3. Recursión: En lugar de usar bucles, la recursión se basa en que una función se llame a sí misma para realizar tareas repetitivas. Es una alternativa más declarativa a los bucles tradicionales, especialmente útil en problemas que pueden ser descompuestos en subproblemas más pequeños.
+4. Composición de funciones: Es el proceso de combinar funciones pequeñas para formar una función más compleja. Las funciones de menor nivel pasan su resultado como entrada a otras funciones, creando un flujo de transformaciones que se pueden encadenar de manera eficiente.
+
+# Programación con eventos y asincronía
+
+
+Los eventos y la asincronía son fundamentales en la programación, especialmente para interactuar con el usuario y manejar tareas que tardan en completarse. Aquí están sus conceptos clave:
+
+1. Eventos: Son acciones que ocurren, como un clic o una pulsación de tecla. Los eventos permiten que el programa responda a esas acciones del usuario.
+2. Asincronía: Permite ejecutar tareas sin bloquear el programa. Por ejemplo, mientras esperas una respuesta de un servidor, el programa puede seguir haciendo otras cosas.
+3. Callbacks: Son funciones que se pasan a otras funciones y se ejecutan cuando una tarea asincrónica se completa. Son útiles, pero pueden complicar el código si se usan demasiado.
+4. Promesas: Son una forma más organizada de manejar tareas asincrónicas, que permiten encadenar acciones y manejar errores fácilmente.
+5. Async/Await: Es una manera más simple de manejar asincronía, haciendo que el código se vea más como código normal (síncrono), pero sin bloquear el programa.
+
+# Programación orientada a objetos (POO)
+
+Las clases, herencia, encapsulación y polimorfismo son conceptos clave en la programación orientada a objetos, que ayudan a organizar y gestionar el código de manera eficiente. Aquí te lo explico de manera sencilla:
+
+1. Clases: Son plantillas para crear objetos. Una clase define las propiedades (atributos) y comportamientos (métodos) que los objetos de esa clase tendrán.
+2. Herencia: Permite que una clase "hija" herede atributos y métodos de una clase "padre". Esto facilita la reutilización de código y la creación de relaciones jerárquicas entre clases.
+3. Encapsulación: Consiste en ocultar los detalles internos de una clase y exponer solo lo necesario. Esto se logra mediante el uso de modificadores de acceso (como privado o público), lo que ayuda a proteger los datos y mantener el control sobre cómo se accede a ellos.
+4. Polimorfismo: Permite que diferentes clases tengan métodos con el mismo nombre, pero que se comporten de manera diferente según el tipo de objeto. Esto facilita la extensión del código sin modificar las clases existentes.
+
 # Levantar el proyecto
 Para poder trabajar en el proyecto debe abrir una linea de comando y seguir los siguientes pasos (la versión 1.1 de la página trabaja con html y css a través de SASS, por lo cual se recomienda instalar alguna extensión como live server):
 ```
