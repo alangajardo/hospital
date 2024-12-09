@@ -1,6 +1,6 @@
 [
     {
-        "codigo_medico": 1,
+        "codigo_doctor": 1,
         "img": "dr_stephen_strange.jpeg",
         "alt": "dr. Stephen Strange",
         "nombre": "Dr. Stephen Strange",
@@ -21,7 +21,7 @@
         "disponibilidad": true
     },
     {
-        "codigo_medico": 2,
+        "codigo_doctor": 2,
         "img": "dr_christine_palmer.jpeg",
         "alt": "dr. christine palmen",
         "nombre": "Dr. Christine Palmer",
@@ -42,7 +42,7 @@
         "disponibilidad": false
     },
     {
-        "codigo_medico": 3,
+        "codigo_doctor": 3,
         "img": "dr_fate.webp",
         "alt": "dr. fate",
         "nombre": "Dr. Fate",
@@ -63,7 +63,7 @@
         "disponibilidad": false
     },
     {
-        "codigo_medico": 4,
+        "codigo_doctor": 4,
         "img": "dr_derek_sheperd.jpeg",
         "alt": "dr. derek sheperd",
         "nombre": "Dr. Derek Sheperd",

@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
+<body id="serviciosBody">
     <nav class="navbar navbar-expand-lg bg-body-secondary sticky-top menu">
         <div class="container-fluid">
             <img class="navbar-brand menu__img" src="assets/img/logo.png" alt="logo hospital">
@@ -27,11 +27,50 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <button class="btn btn-lg btn-outline-success menu__boton">Reservar Cita</button>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-lg btn-outline-success menu__boton">Reservar Cita</button>
             </div>
         </div>
     </nav>
-    
+
+    <!--inicio modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Reservar Cita</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="bg-light p-4 shadow rounded formulario">
+                        <div class="mb-3">
+                            <label class="form-label">Rut</label>
+                            <div class="input-group">
+                                <input id="rutCita" class="form-control" type="text" placeholder="Ingrese su rut">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Especialidad</label>
+                            <div class="input-group">
+                                <input id="espCita" class="form-control" type="text" placeholder="Ingrese especialidad">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Fecha</label>
+                            <div class="input-group">
+                                <input id="fechaCita" class="form-control" type="text" placeholder="Ingrese fecha atencion (día-mes-año)">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                    <button type="button" class="btn btn-primary" id="botonCitas">Reservar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fin modal-->
+
     <main>
         <div class="accordion">
             <div class="accordion-item">
@@ -74,34 +113,7 @@
         
         <section>
             <div id="carousel" class="carousel carousel-dark slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <article>
-                            <img class="d-block w-100 servicio__img" src="assets/img/servicios/servicio_1.jpg" alt="urgencia">
-                            <div class="carousel-caption d-md-block servicio__parrafo">
-                                <h4><b>Urgencia</b></h4>
-                                <p>El servicio de urgencia de un hospital ofrece atención médica inmediata a pacientes en condiciones críticas, funcionando las 24 horas con personal especializado y equipamiento para estabilizar y diagnosticar.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="carousel-item">
-                        <article>
-                            <img class="d-block w-100 servicio__img" src="assets/img/servicios/servicio_2.jpg" alt="telemedicina">
-                            <div class="carousel-caption d-md-block servicio__parrafo">
-                                <h4><b>Telemedicina</b></h4>
-                                <p>El servicio de telemedicina proporciona atención médica a distancia mediante tecnologías como videollamadas y chats, permitiendo consultas sin desplazamientos y optimizando recursos sanitarios, manteniendo la confidencialidad y calidad del cuidado.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="carousel-item">
-                        <article>
-                            <img class="d-block w-100 servicio__img" src="assets/img/servicios/servicio_3.jpg" alt="paliativo">
-                            <div class="carousel-caption d-md-block servicio__parrafo">
-                                <h4><b>Paliativos</b></h4>
-                                <p>El servicio de cuidados paliativos mejora la calidad de vida de pacientes con enfermedades avanzadas sin cura, como el cáncer terminal, aliviando el dolor y síntomas, y brindando apoyo a las familias mientras prioriza el confort del paciente.</p>
-                            </div>
-                        </article>
-                    </div>
+                <div class="carousel-inner" id="carousel-servicios">
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -220,6 +232,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -103,6 +103,17 @@ Las clases, herencia, encapsulación y polimorfismo son conceptos clave en la pr
 3. Encapsulación: Consiste en ocultar los detalles internos de una clase y exponer solo lo necesario. Esto se logra mediante el uso de modificadores de acceso (como privado o público), lo que ayuda a proteger los datos y mantener el control sobre cómo se accede a ellos.
 4. Polimorfismo: Permite que diferentes clases tengan métodos con el mismo nombre, pero que se comporten de manera diferente según el tipo de objeto. Esto facilita la extensión del código sin modificar las clases existentes.
 
+# Manipulación de datos, algoritmos, estructura de datos, funciones, clases, y eventos del proyecto
+
+La información dentro del proyecto fue manipulada a través de archivos en formato JSON que almacenan la información de doctores, servicios y citas.
+Se creó un método (usando currying) para rescatar información desde una ruta específica y luego indicando el archivo desde el cual se pretende rescatar la información, luego se recorre dicha información y trabaja de tal forma que se lee, modifica, clona o recorre, según la necesidad de lo solicitado por el hospital.
+
+Dentro de los algoritmos se utilizaron de orden creciente, decreciente, filtros, ordenamiento y trabajo de listas para almacenar información por ejemplo de las citas medicas que los pacientes pueden agendar.
+
+Se trabajo mucho con el manejo de DOM y los eventos que se desencadenaban debido a la acción de botones o checkbox creados a partir de la necesidad de filtrar información de los doctores o registrar nuevas citas médicas.
+
+Se crearon las clases Doctor, Cirujano y Pediatra, se simulo el hecho de la existencia de clases hijas (herencia) y la creación de métodos como calcular pago de una atención. Dicho método podría cambiar según el doctor, por lo cual se utilizó el polimorfismo para modificar el método indicado.
+
 # Levantar el proyecto
 Para poder trabajar en el proyecto debe abrir una linea de comando y seguir los siguientes pasos (la versión 1.1 de la página trabaja con html y css a través de SASS, por lo cual se recomienda instalar alguna extensión como live server):
 ```
@@ -122,4 +133,4 @@ code .
 ```
 
 ## Autores
-[<img src="https://scontent.fscl9-2.fna.fbcdn.net/v/t39.30808-6/321995472_1228880011041329_3615063310632845232_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE0FAwgoYNy1qe2BsmB8IktNxci0VAU0tY3FyLRUBTS1oTqXOpZpNGmTfqGgZULfuw&_nc_ohc=3kM2qqydNuoQ7kNvgE-YvBP&_nc_zt=23&_nc_ht=scontent.fscl9-2.fna&_nc_gid=AaTe7_f2gQf0AeasOOcquH0&oh=00_AYC6-AQ2eXCOEO4gy-6BGMF2Eu7KLiMd-4m-Vwbg7_N3VQ&oe=6730A086" width=115><br><sub>Alan Gajardo Medina</sub>](https://github.com/alangajardo)
+Alan Gajardo Medina

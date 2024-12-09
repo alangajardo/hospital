@@ -1,0 +1,16 @@
+[
+    {
+        "codigoCita": 1,
+        "rutPaciente": "12222222-2",
+        "especialidad": "Traumatología",
+        "fechaCita": "05-12-2024",
+        "estado": "realizada"
+    },
+    {
+        "codigoCita": 2,
+        "rutPaciente": "13333333-3",
+        "especialidad": "Traumatología",
+        "fechaCita": "06-12-2024",
+        "estado": "cancelada"
+    }
+]
